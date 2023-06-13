@@ -8,7 +8,7 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=nss
 PKG_VERSION:=3.55
-PKG_RELEASE:=1
+PKG_RELEASE:=2
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:= \
@@ -21,7 +21,7 @@ PKG_LICENCE:=MPL-2.0
 PKG_LICENSE_FILES:=nss/COPYING
 PKG_CPE_ID:=cpe:/a:mozilla:network_security_services
 
-PKG_BUILD_PARALLEL:=1
+PKG_BUILD_PARALLEL:=0
 
 include $(INCLUDE_DIR)/package.mk
 
